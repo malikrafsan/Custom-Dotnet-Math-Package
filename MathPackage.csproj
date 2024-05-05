@@ -7,6 +7,16 @@
     <Authors>Malik Akbar Hashemi Rafsanjani</Authors>
     <Company>malikrafsan</Company>
     <Product>MathPackage</Product>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/malikrafsan/Custom-Dotnet-Math-Package.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+    <None Include="LICENSE" Pack="true"
+      PackagePath="" />
+  </ItemGroup>
 
 </Project>
